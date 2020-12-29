@@ -78,11 +78,13 @@ button {
 }
 .chat-message .message-header .message-sender{
 	font-family: 'NEXON Lv1 Gothic OTF Bold';
+	font-size: 13.65px;
+	line-height: 26px;
 	color: #222222;
 	background: linear-gradient(to right, #DDDDDD 90%, transparent 90% 95%, #DDDDDD 95%);
 	width: 150px;
-	padding-top: 3px;
-	padding-left: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
 	box-shadow: -10px 0px 0px 0px black;
 	border-bottom: 3px solid #aaaaaa;
 	margin-left: 10px;
@@ -94,6 +96,7 @@ button {
 }
 #chat-log .chat-message.message{
 	font-family: 'NEXON Lv2 Gothic';
+	column-gap: 2px;
 	font-size: 13.65px;
 	border-radius: 0px;
 	border: none;
@@ -103,10 +106,12 @@ button {
 #chat-log .chat-message.message.flexcol .message-content{
 	text-indent: 5px;
 	padding: 2px;
+	padding-top: 4px;
 	line-height: 16px;
 }
 #chat-log .message p {
 	margin: 0px;
+	margin-bottom: 5px;
 }
 #chat-log .message p strong {
 	font-family: 'NEXON Lv2 Gothic Bold';
