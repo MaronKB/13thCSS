@@ -2,7 +2,7 @@
 	"name": "13thCSS",
 	"title": "비시머 CSS",
 	"description": "<p>13시대 개인용 UI</p>",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"minimumCoreVersion" : "0.6.4",
 	"compatibleCoreVersion": "1.0.0",
 	"author": "mrkb",
