@@ -1,0 +1,25 @@
+{
+	"name": "13thCSS",
+	"title": "비시머 CSS",
+	"description": "<p>13시대 개인용 UI</p>",
+	"version": "1.0.0",
+	"minimumCoreVersion" : "0.6.4",
+	"compatibleCoreVersion": "1.0.0",
+	"author": "mrkb",
+	"esmodules": [
+	"babele-register.js"
+	],
+	"scripts": [],
+	"styles": ["style.css"],
+	"packs": [],
+	"languages": [
+	{
+      "lang": "ko",
+      "name": "한국어(Korean)",
+      "path": "ko.json"
+    }
+	],
+	"url": "https://github.com/MaronKB/13thagekr",
+	"manifest": "https://raw.githubusercontent.com/MaronKB/13thagekr/master/module.json",
+	"download": "https://github.com/MaronKB/13thagekr/archive/master.zip"
+}
