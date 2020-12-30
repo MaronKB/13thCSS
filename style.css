@@ -5,12 +5,6 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'MapoAgape';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoAgapeA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'NEXON Lv1 Gothic OTF Bold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF Bold.woff') format('woff');
     font-weight: normal;
@@ -92,6 +86,7 @@ button {
 	padding-left: 5px;
 	box-shadow: -10px 0px 0px 0px black;
 	border-bottom: 3px solid #aaaaaa;
+	border-color: #aaaaaa !important;
 	margin-left: 10px;
 	margin-bottom: 5px;
 	flex: none;
@@ -124,7 +119,8 @@ button {
 	text-indent: 0px;
 	margin-bottom: 4px;
 }
-.EasyMDEContainer {
+.EasyMDEContainer,
+#chat-form {
 	font-family: 'paybooc-Medium'
 }
 #chat-log .chat-message.message.flexcol.narrator-chat{
