@@ -102,22 +102,21 @@ button {
 	border: none;
 	border-bottom: 3px solid #dddddd;
 	margin: 0px;
+	padding: 6px 5px 5px 5px;
 }
 #chat-log .chat-message.message.flexcol .message-content{
 	text-indent: 5px;
-	padding: 2px;
-	padding-top: 4px;
 	line-height: 16px;
 }
 #chat-log .message p {
-	margin: 0px;
-	margin-bottom: 5px;
+	margin:0px;
 }
 #chat-log .message p strong {
 	font-family: 'NEXON Lv2 Gothic Bold';
 }
-#chat-log .message-content .card-content .card-prop{
+#chat-log .message-content .card-content .card-prop {
 	text-indent: 0px;
+	margin-bottom: 4px;
 }
 	
 #chat-log .chat-message.message.flexcol.narrator-chat{
