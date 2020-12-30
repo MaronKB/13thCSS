@@ -86,7 +86,6 @@ button {
 	padding-left: 5px;
 	box-shadow: -10px 0px 0px 0px black;
 	border-bottom: 3px solid #aaaaaa;
-	border-color: #aaaaaa !important;
 	margin-left: 10px;
 	margin-bottom: 5px;
 	flex: none;
@@ -102,6 +101,7 @@ button {
 	border-radius: 0px;
 	border: none;
 	border-bottom: 3px solid #dddddd;
+	border-color: #dddddd !important;
 	margin: 0px;
 	padding: 6px 5px 5px 5px;
 }
