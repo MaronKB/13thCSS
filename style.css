@@ -29,8 +29,14 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'paybooc-Bold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Bold.woff') format('woff');
+    font-family: 'paybooc-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'paybooc-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-ExtraBold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -95,7 +101,7 @@ button {
 	font-size: 12px;
 }
 #chat-log .chat-message.message{
-	font-family: 'NEXON Lv2 Gothic';
+	font-family: 'paybooc-Medium';
 	column-gap: 2px;
 	font-size: 13.65px;
 	border-radius: 0px;
@@ -112,13 +118,15 @@ button {
 	margin:0px;
 }
 #chat-log .message p strong {
-	font-family: 'NEXON Lv2 Gothic Bold';
+	font-family: 'paybooc-ExtraBold';
 }
 #chat-log .message-content .card-content .card-prop {
 	text-indent: 0px;
 	margin-bottom: 4px;
 }
-	
+.EasyMDEContainer {
+	font-family: 'paybooc-Medium'
+}
 #chat-log .chat-message.message.flexcol.narrator-chat{
 	background-color: #444444;
 }
