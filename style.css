@@ -102,6 +102,7 @@ button {
 	border: none;
 	border-bottom: 3px solid #dddddd;
 	border-color: #dddddd !important;
+	border-bottom-color : #dddddd !important;
 	margin: 0px;
 	padding: 6px 5px 5px 5px;
 }
